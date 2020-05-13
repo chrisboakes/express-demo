@@ -1,7 +1,17 @@
 const express = require('express');
 const path = require('path');
+const exphbs = require('express-handlebars');
 
 const app = express();
+
+// Use handlbars
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+
+// Homepage route
+app.get('/', (req, res) => res.render('index', {
+	title: 'Home Page'
+}));
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
