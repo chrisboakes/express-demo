@@ -22,6 +22,17 @@ app.get('/', (req, res) => {
 	});
 });
 
+// Article - news
+app.get('/news/:slug', (req, res) => {
+	fetch(`https://my-json-server.typicode.com/chrisboakes/express-demo/${req.params.slug}`)
+	.then((res) => res.json())
+	.then(data => {
+		res.render('article', {
+			data
+		});
+	});
+});
+
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
