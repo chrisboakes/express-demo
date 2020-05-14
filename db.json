@@ -1,0 +1,34 @@
+{
+	"articles": [
+		{
+			"title": "Coronavirus Q&A: how will businesses and the economy cope as Covid-19 takes hold? Our expert answers your questions",
+			"slug": "coronavirus-q&a-how-will-businesses-cope",
+			"section": "news"
+		},
+		{
+			"title": "Markets regain ground after Monday rout – live updates",
+			"slug": "markets-regain-ground-after-monday",
+			"section": "news"
+		},
+		{
+			"title": "Rishi Sunak 'has postponed tax rises' with painful autumn budget expected",
+			"slug": "rishi-sunak-has-postponed-tax-rises",
+			"section": "politics"
+		},
+		{
+			"title": "Second more deadly wave of coronavirus 'to hit Europe this winter'",
+			"slug": "second-more-deadly-wave-of-coronavirus",
+			"section": "news"
+		},
+		{
+			"title": "Sadiq Khan holds Government to ransom, warning he will slash transport services without funding",
+			"slug": "sadiq-khan-holds-government-to-ransom",
+			"section": "news"
+		},
+		{
+			"title": "Can the Government simply print money forever?",
+			"slug": "can-the-government-simply-print",
+			"section": "politics"
+		}
+	]
+}
