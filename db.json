@@ -30,5 +30,12 @@
 			"slug": "can-the-government-simply-print",
 			"section": "politics"
 		}
-	]
+	],
+	"coronavirus-q&a-how-will-businesses-cope": {
+		"title": "Coronavirus Q&A: how will businesses and the economy cope as Covid-19 takes hold? Our expert answers your questions",
+		"slug": "coronavirus-q&a-how-will-businesses-cope",
+		"section": "news",
+		"standfirst": "Plans to raise taxes were shelved in light of the coronavirus crisis, but the Chancellor will face some difficult decisions in the autumn",
+		"content": "<p>Aliquam consectetur eu augue vel fermentum. Nullam non hendrerit dolor. Sed eu est turpis.</p><p>Pellentesque eu metus euismod, <strong>ornare</strong> eros at, tristique augue. Phasellus convallis sapien non orci tempor, nec pharetra diam scelerisque. Quisque ac mi ut dui mattis pretium vel at nibh. Sed ac ipsum a odio sodales gravida. Proin et ante maximus, dapibus enim fermentum, lobortis sapien. In hendrerit urna sit amet purus placerat, aliquam interdum tortor eleifend. Phasellus aliquam, nulla id tempus laoreet, lacus sapien ullamcorper massa, lobortis elementum sapien turpis suscipit ligula. Vivamus accumsan sit amet ante nec aliquam. Nulla fringilla est mauris, ac lobortis dui auctor ac. Vivamus sit amet malesuada lectus. Nunc gravida congue quam, ac volutpat justo semper a. Duis hendrerit turpis in vestibulum sollicitudin. Quisque nulla diam, feugiat ac nisl vitae, molestie lobortis sem.<p>"
+	}
 }
