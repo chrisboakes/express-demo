@@ -1,4 +1,13 @@
 <h1>{{ title }}</h1>
+
+<h2>{{ description }}</h2>
+
 {{#each data}}
-	<h2>{{title}}</h2>
+	<article>
+		<h2>
+			<a href="{{ slug }}">
+				{{ title }}
+			</a>
+		</h2>
+	</article>
 {{/each}}
