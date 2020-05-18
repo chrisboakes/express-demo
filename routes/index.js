@@ -21,6 +21,7 @@ router.get('/news/:slug', (req, res) => {
 	.then((res) => res.json())
 	.then(data => {
 		res.render('article', {
+			title: data.title,
 			data
 		});
 	});
