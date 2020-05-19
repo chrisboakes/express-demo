@@ -1,0 +1,20 @@
+.list {
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	margin-top: 2rem;
+}
+
+.list__item {
+	border-top: 1px solid #ccc;
+	margin-right: 1rem;
+	padding: 1rem 0;
+	grid-column: span 6;
+}
+
+.list__title {
+	font-size: 1.1rem;
+}
+
+.list__link {
+	color: #04777b;
+}

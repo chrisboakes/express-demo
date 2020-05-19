@@ -2,6 +2,8 @@
 @import 'utils/generic.css';
 
 @import 'components/article.css';
+@import 'components/list.css';
 @import 'components/logo.css';
 @import 'components/navigation.css';
 @import 'components/site-header.css';
+@import 'components/page.css';
