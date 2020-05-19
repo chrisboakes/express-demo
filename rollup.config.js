@@ -11,7 +11,8 @@ export default {
     postcss({
 		extract: path.resolve('public/dist/style.css'),
 		plugins: [
-			require('autoprefixer')
+			require('autoprefixer'),
+			require('postcss-import')
 		]
     })
   ]
