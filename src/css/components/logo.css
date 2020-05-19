@@ -1,0 +1,9 @@
+.logo {
+	grid-column: 1/5;
+}
+
+.logo__icon {
+	height: auto;
+	max-width: 285px;
+	width: 100%;
+}

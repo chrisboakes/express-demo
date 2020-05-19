@@ -1,0 +1,18 @@
+.navigation {
+	height: 100%;
+	grid-column: 5/12;
+}
+
+.navigation__list {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation__item {
+	margin-right: 10px;
+	padding-right: 10px;
+}
