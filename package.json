@@ -4,7 +4,7 @@
   "description": "Express for SSR",
   "main": "index.js",
   "scripts": {
-	"build": "rollup --config",
+    "build": "rollup --config",
     "start": "node index",
     "dev": "nodemon index"
   },
@@ -26,6 +26,8 @@
     "nodemon": "^2.0.3"
   },
   "devDependencies": {
-    "rollup": "^2.10.4"
+    "autoprefixer": "^9.8.0",
+    "rollup": "^2.10.4",
+    "rollup-plugin-postcss": "^3.1.1"
   }
 }
