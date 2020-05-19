@@ -4,6 +4,7 @@
   "description": "Express for SSR",
   "main": "index.js",
   "scripts": {
+	"build": "rollup --config",
     "start": "node index",
     "dev": "nodemon index"
   },
@@ -23,5 +24,8 @@
     "express-handlebars": "^4.0.4",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "rollup": "^2.10.4"
   }
 }
