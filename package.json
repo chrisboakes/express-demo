@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup --config",
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+	"watch": "rollup --config --watch"
   },
   "repository": {
     "type": "git",
