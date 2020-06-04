@@ -1,4 +1,9 @@
-<h1>{{ data.title }}</h1>
+{{#if data.title }}
+	<h1>{{ data.title }}</h1>
+{{else}}
+	<h1>Article data not available from API</h1>
+{{/if}}
+
 
 <p>{{ data.standfirst }}</p>
 
