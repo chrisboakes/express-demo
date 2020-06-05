@@ -1,6 +1,6 @@
 const express = require('express');
 const fetch = require("node-fetch");
-const { FilterData } = require('../src/js/filter-data');
+const { FilterData } = require('../server/filter-data');
 const router = express.Router();
 const filter = new FilterData();
 
