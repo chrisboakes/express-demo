@@ -16,3 +16,8 @@
 	margin-right: 10px;
 	padding-right: 10px;
 }
+
+.navigation__item--selected a {
+	border-bottom: 2px solid #333;
+	padding-bottom: 2px;
+}
