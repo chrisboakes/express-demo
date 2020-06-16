@@ -44,7 +44,7 @@ router.get('/news', (req, res) => {
 });
 
 // Article - news
-router.get('/news/:slug', (req, res) => {
+router.get(['/news/:slug', '/politics/:slug'], (req, res) => {
 	fetch(`https://my-json-server.typicode.com/chrisboakes/express-demo/${req.params.slug}`)
 	.then((res) => res.json())
 	.then(data => {
