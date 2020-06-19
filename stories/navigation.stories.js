@@ -12,3 +12,9 @@ export const navigation = () => Navigation();
 export const navigationSelected = () => {
 	return Navigation().replace("navigation__item", "navigation__item navigation__item--selected");
 };
+
+navigation.story = {
+  parameters: {
+    jest: ['navigation'],
+  },
+};
