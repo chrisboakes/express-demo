@@ -41,6 +41,7 @@
     "@testing-library/jest-dom": "^5.10.1",
     "autoprefixer": "^9.8.0",
     "babel-loader": "^8.1.0",
+    "cypress": "^4.8.0",
     "concurrently": "^5.2.0",
     "handlebars-loader": "^1.7.1",
     "jest": "^26.0.1",
